@@ -2,27 +2,26 @@
 
 [![Build Status](https://travis-ci.org/idangvili/crawler-find-word.svg?branch=master)](https://travis-ci.org/idangvili/crawler-find-word)
 
-## Purpose :
+## Description
 
 Deep crawl to find word in the body of web pages by base url
 
-## Description
-
 ## Demo
 
-'var srv = require("crawler-find-word");'
-'var print = function(){'
-'    var count = srv.pages.length;'
-'    for(var i=0; i < count; ){'
-'        var u = srv.pages.pop();        '       
-'        console.log(JSON.stringify(u));'
-'        i++;'
-'    };'
-'}'
-''
-'srv.eventHandler.on("done", print);'
-'srv.crawl("https://cnn.com/", "trump", 20);'
-
+# 'use strict';
+# var srv = require('crawler-find-word');
+# 
+# var print = function(){
+#     var count = srv.pages.length;
+#     for(var i=0; i < count; ){
+#         var u = srv.pages.pop();               
+#         console.log(JSON.stringify(u));
+#         i++;
+#     };
+# }
+# 
+# srv.eventHandler.on('done', print);
+# srv.crawl('https://cnn.com/', 'trump', 2);
 
 ## Run 
 
