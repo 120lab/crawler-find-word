@@ -1,6 +1,6 @@
 {
   "name": "crawler-find-word",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "crawler service",
   "main": "crawler-find-word.js",
   "scripts": {
@@ -25,7 +25,8 @@
     "url": "git+https://github.com/idangvili/crawler-find-phrase.git"
   },
   "keywords": [
-    "crawler"
+    "crawler","crawling","scraper","spider","search","find",
+    "word","phrase","javascript","node","nodejs","url"
   ],
   "bugs": {
     "url": "https://github.com/idangvili/"
