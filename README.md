@@ -4,24 +4,28 @@
 
 ## Description
 
-Deep crawl to find word in the body of web pages by base url
-Simple but powerful, popular and production crawling/scraping package for Node.
+Deep crawl to find word in the body of web pages by base url.    
+Simple but powerful, popular and production crawling/scraping package for Node.    
+
+We strict about our code , so, we choose to use 'travis-ci' and 'npm audit'.
+
+Review bugs you found or feature you want in our Slack click this [invitation](https://join.slack.com/t/crawler-find-word/shared_invite/enQtMzYyOTcyNjE5MDEzLTc4NWM3Y2QyZmNiMWY5OWJhMGVkMzNlZWEyOGQ2NWVjMmMwMjFlZWUyNDkwOTRkZmVmMjIxZDMzNjU0ZTdhZWU)
 
 ## Features:
 
-Configurable level of maximum pages to visit
-Configurable root URL and Word to search
-Use event driven API, Raise 'Done' event when process ends.
-Return usefull statistical data.
-Use Cheerio to find word or phrase in the DOM.
-Tested with Mocha and Chai
+Configurable level of maximum pages to visit.  
+Configurable root URL and Word to search.  
+Use event driven API, Raise 'Done' event when process ends.  
+Return usefull statistical data.  
+Use Cheerio to find word or phrase in the DOM.  
+Tested with Mocha and Chai.  
 
 ## Future features
 
-Add 'Error' event handling.
-Priority queue of requests.
-Control rate limit.
-Charset detection and conversion.
+Add 'Error' event handling.  
+Priority queue of requests.  
+Control rate limit.  
+Charset detection and conversion.  
 
 ## Demo
 

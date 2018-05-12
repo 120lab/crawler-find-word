@@ -1,6 +1,6 @@
 {
   "name": "crawler-find-word",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "crawler service",
   "main": "crawler-find-word.js",
   "scripts": {
@@ -9,12 +9,12 @@
   "author": "Idan Gvili",
   "license": "MIT",
   "dependencies": {
-    "cheerio": "^0.19.0",
-    "url-parse": "^1.0.5",
-    "request": "^2.65.0",
-    "valid-url": "^1.0.9",
+    "chai": "^4.1.2",
+    "cheerio": "^1.0.0-rc.2",
     "mocha": "^5.1.0",
-    "chai": "^4.1.2"
+    "request": "^2.65.0",
+    "url-parse": "^1.0.5",
+    "valid-url": "^1.0.9"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -25,8 +25,18 @@
     "url": "git+https://github.com/idangvili/crawler-find-phrase.git"
   },
   "keywords": [
-    "crawler","crawling","scraper","spider","search","find",
-    "word","phrase","javascript","node","nodejs","url"
+    "crawler",
+    "crawling",
+    "scraper",
+    "spider",
+    "search",
+    "find",
+    "word",
+    "phrase",
+    "javascript",
+    "node",
+    "nodejs",
+    "url"
   ],
   "bugs": {
     "url": "https://github.com/idangvili/"
