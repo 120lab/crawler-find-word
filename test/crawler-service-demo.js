@@ -10,5 +10,13 @@ var print = function(){
     };
 }
 
-srv.eventHandler.on('done', print);
-srv.crawl('https://cnn.com/', 'trump', 2);
+var knownPageGetData = function(){
+    var u = srv.pages.pop();               
+    if(u.isWordFound)
+        throw new exception('Word Found');
+    else
+        throw new exception('Word did not Found');
+};
+
+srv.eventHandler.on('done', knownPageGetData);
+srv.crawl('https://codeburst.io/javascript-unit-testing-using-mocha-and-chai-1d97d9f18e71', 'Mocha', 1);
