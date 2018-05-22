@@ -1,0 +1,6 @@
+REM Build the Docker image into the Docker local instance
+docker build -t node-crawler-dev-env .
+
+REM Activate & Run new instance of the image above
+docker container run -p 9999:80 --name node-crawler-app --rm -v C:\Work\Workspaces\crawler-find-word:/usr/src/app node-crawler-dev-env:latest
+

@@ -18,5 +18,5 @@ var knownPageGetData = function(){
         throw new exception('Word did not Found');
 };
 
-srv.eventHandler.on('done', knownPageGetData);
+srv.eventHandler.on('done', print);
 srv.crawl('https://codeburst.io/javascript-unit-testing-using-mocha-and-chai-1d97d9f18e71', 'Mocha', 1);
